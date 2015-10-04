@@ -1,0 +1,110 @@
+/*
+Font Design 1.0 por @AlexTorresSk
+https://fontdesign.blogspot.com - @FontDesignIcons
+License - https://fontdesign.blogspot.com/licencia
+*/
+
+@font-face {
+  font-family: 'FontDesign';
+  font-style: normal;
+  font-weight: normal;
+  src: url('FontDesign.eot');
+  src: url('FontDesign.eot?#iefix') format('embedded-opentype'), url('FontDesign.woff2') format('woff2'), url('FontDesign.woff') format('woff'), url('FontDesign.ttf') format('truetype'), url('FontDesign.svg#FontDesignRegular') format('svg');
+}
+
+.fd{display:inline-block;font:normal normal normal 14px/1 FontDesign;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fd-logos{display:inline-block;font-style:normal;font-variant:normal;font-weight:normal;font-family:FontDesign;font-size:35px;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fd-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
+.fd-x2{font-size:2em}
+.fd-x3{font-size:3em}
+.fd-x4{font-size:4em}
+.fd-x5{font-size:5em}
+.fd-sc{width:1.28571429em;text-align:center}
+.fd-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}
+.fd-ul>li{position:relative}
+.fd-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}
+.fd-li.fd-lg{left:-1.85714286em}
+.fd-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}
+.fd-pull-left{float:left}
+.fd-pull-right{float:right}
+.fd.fd-pull-left{margin-right:.3em}
+.fd.fd-pull-right{margin-left:.3em}
+.pull-right{float:right}
+.pull-left{float:left}
+.fd.pull-left{margin-right:.3em}
+.fd.pull-right{margin-left:.3em}
+.fd-loading{-webkit-animation:fd-loading 2s infinite linear;animation:fd-loading 2s infinite linear}
+.fd-pulse{-webkit-animation:fd-loading 1s infinite steps(8);animation:fd-loading 1s infinite steps(8)}
+@-webkit-keyframes fd-loading{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes fd-loading{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+.fd-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.fd-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.fd-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+.fd-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);-webkit-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1)}
+.fd-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);-webkit-transform:scale(1, -1);-ms-transform:scale(1, -1);transform:scale(1, -1)}:root .fd-rotate-90,:root .fd-rotate-180,:root .fd-rotate-270,:root .fd-flip-horizontal,:root .fd-flip-vertical{filter:none}
+.fd-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
+.fd-stack-x1,.fd-stack-x2{position:absolute;left:0;width:100%;text-align:center}
+.fd-stack-x1{line-height:inherit}
+.fd-stack-x2{font-size:2em}
+.fd-inverse{color:#fff}
+
+/* Logos */
+.fd-logo-facebook:before{content:"\e000"}
+.fd-logo-twitter:before{content:"\e001"}
+.fd-logo-gplus:before{content:"\e002"}
+.fd-logo-google:before{content:"\e003"}
+.fd-logo-instagram:before{content:"\e004"}
+.fd-logo-kiwi:before{content:"\e005"}
+.fd-logo-pinterest:before{content:"\e006"}
+
+/* Iconos */
+.fd-tutecnomundo:before{content:"\f000"}
+.fd-tuwindowsmundo:before{content:"\f001"}
+.fd-tuapplemundo:before{content:"\f002"}
+.fd-edge:before{content:"\f003"}
+.fd-troll:before{content:"\f004"}
+.fd-fontdesign:before{content:"\f005"}
+.fd-office:before{content:"\f006"}
+.fd-google:before{content:"\f007"}
+.fd-google-plus:before{content:"\f008"}
+.fd-outlook:before{content:"\f009"}
+.fd-web:before{content:"\f00a"}
+.fd-velocimetro:before,.fd-speedometer:before{content:"\f00b"}
+.fd-ask-fm:before{content:"\f00c"}
+.fd-me-gusta:before,.fd-like:before{content:"\f00d"}
+.fd-no-me-gusta:before,.fd-dislike:before{content:"\f00e"}
+.fd-noticias:before,.fd-news:before{content:"\f00f"}
+.fd-instagram:before{content:"\f010"}
+.fd-barita-magica:before,.fd-magic:before{content:"\f011"}
+.fd-nota-musical:before,.fd-musical-note:before{content:"\f012"}
+.fd-documento:before,.fd-document:before{content:"\f013"}
+.fd-foto:before,.fd-imagen:before,.fd-photo:before,.fd-image:before{content:"\f014"}
+.fd-etiqueta:before,.fd-tag:before{content:"\f015"}
+.fd-celular:before,.fd-smartphone:before{content:"\f016"}
+.fd-bloquear:before,.fd-lock:before{content:"\f017"}
+.fd-desbloquear:before,.fd-unlock:before{content:"\f018"}
+.fd-apple:before{content:"\f019"}
+.fd-feliz:before,.fd-happy:before{content:"\f01a"}
+.fd-triste:before,.fd-sad:before{content:"\f01b"}
+.fd-guiño:before,.fd-wink:before{content:"\f01c"}
+.fd-sin-sonrisa:before,.fd-unsmiling:before{content:"\f01d"}
+.fd-lengua:before,.fd-tongue:before{content:"\f01e"}
+.fd-fotos:before,.fd-imagenes:before,.fd-photos:before,.fd-images:before{content:"\f01f"}
+.fd-opciones:before,.fd-options:before{content:"\f020"}
+.fd-menu:before,.fd-bars:before{content:"\f021"}
+.fd-calendario:before,.fd-calendar:before{content:"\f022"}
+.fd-kiwi:before{content:"\f023"}
+.fd-pinterest:before{content:"\f024"}
+.fd-line:before{content:"\f025"}
+.fd-line-alt:before{content:"\f026"}
+.fd-qr:before{content:"\f027"}
+.fd-esfero:before,.fd-boligrafo:before,.fd-pen:before{content:"\f028"}
+.fd-lapiz:before,.fd-pencil:before{content:"\f029"}
+.fd-bombillo:before,.fd-bombilla:before,.fd-foco:before,.fd-bulb:before{content:"\f02a"}
+.fd-traductor:before,.fd-translate:before{content:"\f02b"}
+.fd-python:before{content:"\f02c"}
+.fd-enamorado:before,.fd-in-love:before{content:"\f02d"}
+.fd-libro:before,.fd-book:before{content:"\f02e"}
+.fd-puzzle:before{content:"\f02f"}
+.fd-niño:before,.fd-boy:before{content:"\f030"}
+.fd-niña:before,.fd-girl:before{content:"\f031"}
+.fd-cargando:before,.fd-loading:before{content:"\f032"}
